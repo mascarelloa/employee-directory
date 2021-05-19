@@ -1,0 +1,27 @@
+header {
+    background-color: #1a243a;
+    height: 175px;
+    text-align: center;
+    border-bottom:5px solid rgb(192, 44, 44);
+}
+
+.header-text {
+    position:relative;
+    top:35px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-family:Oswald;
+    font-size:40px;
+    text-transform:uppercase;
+}
+
+header h2 {
+    color: #aaaaaa;
+    font-size: 18px;
+    font-family:Oswald;
+    letter-spacing:1px;
+    font-weight:300;
+}
+    

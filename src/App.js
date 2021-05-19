@@ -1,16 +1,14 @@
 import React from "react";
 import Header from "./components/Header";
-import Search from "./components/Search";
-import Results from "./components/Results";
+import Main from "./components/Main";
 
 function App() {
   return (
     <div>
       <Header />
-      <Search />
-      <Results />
+      <Main />
     </div>
-  )
+  );
 }
 
 export default App;
