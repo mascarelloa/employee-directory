@@ -5,9 +5,11 @@ import Results from "./components/Results";
 
 function App() {
   return (
-    <header />,
-    <search />,
-    <results />
+    <div>
+      <Header />
+      <Search />
+      <Results />
+    </div>
   )
 }
 
