@@ -9,6 +9,7 @@
   View the live application [here](https://mascarelloa.github.io/employee-directory/).
 
   ## Table of Contents
+  * [Visuals](#Visuals)
   * [Installation](#Installation)
   * [Usage](#Usage)
   * [License](#License)
@@ -16,6 +17,9 @@
   * [Testing](#Testing)
   * [Questions](#Questions)
 
+  ## Visuals
+  ![vis1](https://user-images.githubusercontent.com/75543740/119060033-6af03d80-b99f-11eb-90d6-9787b7e0afd7.PNG)
+  
   ## Installation
   npm i
 
