@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/Results.css";
 
-function Results({ allEmployees, searchValue }) {
+function Results({ allEmployees, searchValue, handleSort }) {
   return (
     <table id="employees">
       <thead>
         <tr>
           <th>Image</th>
-          <th>Name</th>
+          <th>Name <span id="nameSort" onClick={handleSort}>▾</span></th>
           <th>Phone</th>
           <th>Email</th>
           <th>DOB</th>
@@ -16,9 +16,7 @@ function Results({ allEmployees, searchValue }) {
 
       <tbody>
         {allEmployees.map((employee) => {
-          return (
-          // return searchValue.length &&
-          //   employee.name.first.includes(searchValue) ? (
+          return employee.name.first.includes(searchValue) ? (
             <tr>
               <td>
                 <img src={employee.picture.medium} alt={employee.name}/>
@@ -30,8 +28,8 @@ function Results({ allEmployees, searchValue }) {
               <td>{employee.email}</td>
               <td>{employee.dob.date.slice(0, 10)}</td>
             </tr>
-          )
-          // ) : null;
+          
+          ) : null;
         })}
       </tbody>
     </table>
